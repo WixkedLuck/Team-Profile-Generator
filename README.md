@@ -30,5 +30,4 @@ The purpose of this project is to make a functional node application that uses n
 
 ![Challange10-Team-Profile](./images/Myteam.PNG)
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) <br/>
 [Video](https://www.youtube.com/watch?v=njsNM1Rr_GM)
