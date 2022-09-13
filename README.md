@@ -2,16 +2,15 @@
 
 Challenge 10 for UoM Node.js Team Website Generator:  
 
-For this weeks challenge I was tasked with creating a team website Generator using Node.js
+For this weeks challenge I was tasked with creating a team website Generator using Node.js and test the different classes with jest
 
-- The motivation behind this project was to become more familiar with using Node.js and creating a generator that creates Readme.md files. 
+- The motivation behind this project was to become more familiar with using Node.js and creating a website based off of users input with inquirer.  
  
-- I built this project to advance my skills with working with node.js and learning how to use the inquirer, fs, and util packages.  
+- I built this project to advance my skills with working with node.js and learning how to use the inquirer, fs, and jest.  
 
-- This project resolves around having a user answer questions about their project to create a automatic Readme file. Once the user answers all questions a file is created and can be deployed/ read.    
+- This project resolves around having a user answer questions about creating a team. The user after creating a manager can then add a developer or intern an infinite amount of times until they terminate the loop. After, a html page is created with this input. 
 
-- Completion of this project allowed for me to become more knowledgeable with node.js and installing packages 
-
+- Completion of this project allowed for me to become more knowledgeable with node.js and working with classes. 
 # Installation
 In order to install my project, you will need the following
 
