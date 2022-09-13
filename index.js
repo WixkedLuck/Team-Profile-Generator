@@ -7,8 +7,8 @@ const Manager = require('./lib/Manager');
 const Intern = require('./lib/Intern');
 const Engineer = require('./lib/Engineer');
 
-const DIST_DIR = path.resolve(__dirname,'dist');
-const Out =path.join(DIST_DIR, 'index.html');
+const Directory = path.resolve(__dirname,'dist');
+const Out =path.join(Directory, 'index.html');
 const render =require('./src/template.js'); 
 
 const teamArray = [];
@@ -137,8 +137,8 @@ function Start() {
         });
     }
     function writeToFile(){
-        if(!fs.existsSync(DIST_DIR)){
-            fs.mkdirSync(DIST_DIR); 
+        if(!fs.existsSync(Directory)){
+            fs.mkdirSync(Directory); 
         }
         console.log('Creating Team Profile Page..');
         fs.writeFileSync(Out, render(teamArray),'utf-8'); 
