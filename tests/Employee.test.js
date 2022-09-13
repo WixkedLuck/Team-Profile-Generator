@@ -19,3 +19,9 @@ test(' get Email', () =>{
     const employee = new Employee('Sam',12,email);
     expect(employee.getEmail()).toBe(email); 
 });
+
+test('get Role', () => {
+    const role= 'Employee';
+    const employee = new Employee('Sam',2,'Email', "github"); 
+    expect(employee.getRole()).toBe(role); 
+});

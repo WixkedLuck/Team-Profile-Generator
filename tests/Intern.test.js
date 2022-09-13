@@ -25,3 +25,9 @@ test(' get School', () =>{
     const intern = new Intern('Sam',12,'email', school);
     expect(intern.getSchool()).toBe(school); 
 });
+
+test('get Role', () => {
+    const role= 'Intern';
+    const intern = new Intern('Sam',2,'Email', "github"); 
+    expect(intern.getRole()).toBe(role); 
+});

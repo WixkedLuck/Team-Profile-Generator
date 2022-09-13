@@ -25,3 +25,9 @@ test('get Github', () => {
     const engineer = new Engineer('Sam',2,'Email', github); 
     expect(engineer.getGithub()).toBe(github); 
 });
+
+test('get Role', () => {
+    const role= 'Engineer';
+    const engineer = new Engineer('Sam',2,'Email', "github"); 
+    expect(engineer.getRole()).toBe(role); 
+});
