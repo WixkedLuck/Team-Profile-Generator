@@ -1,0 +1,27 @@
+*{
+    color: whitesmoke;
+}
+.card{
+    padding-top: 30px ;
+    border: solid 3px #C6D93B;
+    margin-left: 10px !important;
+    font-size: x-large;
+    
+}
+.card:hover{
+    box-shadow:#02733E  20px 20px 15px;
+}
+
+.h1{
+    font-size: xx-large;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+    border-top: #C6D93B double 3px;
+    border-bottom: #C6D93B double 3px;
+    border-left: #02733E solid 3px;
+    border-right: #02733E solid 3px;
+}
+.row{
+    justify-content: space-evenly;
+}
