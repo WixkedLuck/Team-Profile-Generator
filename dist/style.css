@@ -2,7 +2,8 @@
     color: whitesmoke;
 }
 .card{
-    padding-top: 30px ;
+
+    margin-top: 40px;
     border: solid 3px #C6D93B;
     margin-left: 10px !important;
     font-size: x-large;
